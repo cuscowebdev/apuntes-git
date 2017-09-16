@@ -11,4 +11,5 @@ Patrones de archivos que git ignorará
 ### Saltar el area de preparación
 `git commit -a -m` para saltar el area de preparación, tener en cuenta que solo funciona para archivos que ya estamos siguiendo.
 
-### 
+### git rm
+`git rm` Elimina archivos rastreados del repositorio y de nuestro directorio de trabajo de manera que no aparezcan la próxima vez como archivos no rastreados.
