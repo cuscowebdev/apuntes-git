@@ -5,6 +5,14 @@
 
 Para hacer un commit desde mi editor podemos usar solo `git commit` y automaticamente se abrira nuestro editor con el que configuramos nuestro git.
 
+## Configurando Git por primera vez
+```terminal
+git config --global user.name "jdpoccorie"
+git config --global user.email juandiego.poccori@gmail.com
+git config --global core.editor nano
+git config --list
+```
+
 ## .gitignore
 Patrones de archivos que git ignorará
 
