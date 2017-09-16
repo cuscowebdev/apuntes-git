@@ -54,3 +54,10 @@ eed3109 - JDiegoP, 47 minutes ago : archivos para que lo podamos eliminar
 * `git log --after="YYYY-MM-dd 00:00:00"` para ver los commit despues de la fecha qe le demos ademas de la hora claro.
 * `git log --before="YYYY-MM-dd"` para ver los commit antes de la fecha qe le demos.
 * `git log --after="YYYY-MM-dd" --before="YYYY-MM-dd"` para ver los commit antes de la fecha qe le demos.
+
+# Comandos para deshacer
+`git commit --amend` Rehace la confirmacion ultima y ademas nos lo abre en el editor configurado.
+
+Este comando utiliza el area de preparacion para la confirmacion.
+
+Al final terminaras con una sola confirmacion - la segunda confirmacion reemplaza el resultado de la primera
