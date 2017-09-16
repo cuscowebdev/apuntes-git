@@ -15,3 +15,6 @@ Patrones de archivos que git ignorará
 `git rm` Elimina archivos rastreados del repositorio y de nuestro directorio de trabajo de manera que no aparezcan la próxima vez como archivos no rastreados.
 
 si nosotros eliminamos el archivo, haciendo anticlick y mandar a la papelera como una simple eliminacion y ponemos `git status` en consola nos aparecera un mensaje que diga deleted y que si vamos a querer continuar con eso usemos `git add/rm ` o que si queremos descartar esa eliminacion del archivo tenemos que usar `git checkout -- nombre-archivo` y todo regresa a la normalidad.
+
+## Renombrar archivos
+`git mv` Renombrar archivos `git mv file_from file_to`
