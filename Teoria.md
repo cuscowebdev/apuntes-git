@@ -49,3 +49,8 @@ a7dab93 - JDiegoP, 23 minutes ago : Se coloco en may<C3><BA>scula el archivo teo
 a51237b - JDiegoP, 40 minutes ago : Eliminando el 01.mp4 y ademas aumente info a la teoria
 eed3109 - JDiegoP, 47 minutes ago : archivos para que lo podamos eliminar
 ```
+### ¿Cuales son los commit del dia de ayer?
+* `git log --after="YYYY-MM-dd"` para ver los commit despues de la fecha qe le demos
+* `git log --after="YYYY-MM-dd 00:00:00"` para ver los commit despues de la fecha qe le demos ademas de la hora claro.
+* `git log --before="YYYY-MM-dd"` para ver los commit antes de la fecha qe le demos.
+* `git log --after="YYYY-MM-dd" --before="YYYY-MM-dd"` para ver los commit antes de la fecha qe le demos.
