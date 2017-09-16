@@ -29,3 +29,23 @@ si nosotros eliminamos el archivo, haciendo anticlick y mandar a la papelera com
 su equivalente seria:
 1. git rm file_from
 2. git add file_to
+
+## git log
+Muestra el historial de confirmaciones
+
+Entre las opciones del comando pordemos encontrar:
+* `--oneline` nos muestra el historial abreviado
+* `--graph` añade un pequeño ASCII mostrando el historial de ramificaciones y uniones. Podemos conbinarlo
+
+Para ver los ultimos dos log
+* `git log -2` Para ver los dos ultimos commit
+* `git log -3` Para ver los tres ultimos commit
+* `git log --pretty=format:"%h - %an, %ar : %s"` Nos resultará algo así
+```
+8162bfe - JDiegoP, 9 minutes ago : agregando la parte para configurar nuestro git de manera global
+df533c9 - JDiegoP, 17 minutes ago : Agregando los equivalentes para git mv
+a2bb140 - JDiegoP, 20 minutes ago : Renombrando por el camino largo
+a7dab93 - JDiegoP, 23 minutes ago : Se coloco en may<C3><BA>scula el archivo teoria.md a Teoria.md
+a51237b - JDiegoP, 40 minutes ago : Eliminando el 01.mp4 y ademas aumente info a la teoria
+eed3109 - JDiegoP, 47 minutes ago : archivos para que lo podamos eliminar
+```
