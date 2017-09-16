@@ -67,3 +67,12 @@ Al final terminaras con una sola confirmacion - la segunda confirmacion reemplaz
 `git reset HEAD <file>` Deshace la preparacion 
 
 El archivo o los archivos salen del area de preparacion y se quedan en el directorio de trabajo.
+
+## git checkout -- <file>
+Descarta un archivo modificado
+
+Este es un comando peligroso
+
+Cualquier cambio que le hayas hecho a file desaparecerá.
+
+Nunca utilices este comando a menos de que este absolutamente seguro de que ya no quieres los cambios del archivo
