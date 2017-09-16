@@ -18,3 +18,6 @@ si nosotros eliminamos el archivo, haciendo anticlick y mandar a la papelera com
 
 ## Renombrar archivos
 `git mv` Renombrar archivos `git mv file_from file_to`
+su equivalente seria:
+1. git rm file_from
+2. git add file_to
