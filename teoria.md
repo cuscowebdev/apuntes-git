@@ -9,6 +9,6 @@ Para hacer un commit desde mi editor podemos usar solo `git commit` y automatica
 Patrones de archivos que git ignorará
 
 ### Saltar el area de preparación
-`git commit -a -m`: para saltar el area de preparación
+`git commit -a -m` para saltar el area de preparación, tener en cuenta que solo funciona para archivos que ya estamos siguiendo.
 
 ### 
