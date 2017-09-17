@@ -36,7 +36,9 @@ Muestra el historial de confirmaciones
 Entre las opciones del comando pordemos encontrar:
 * `--oneline` nos muestra el historial abreviado
 * `--graph` añade un pequeño ASCII mostrando el historial de ramificaciones y uniones. Podemos conbinarlo
-
+* `git log --decorate` Nos muestra los puntos de las ramas
+* `git log --oneline --all` Nos muestra todas las ramas
+* `git log --oneline --all --graph` Nos muestra todas las ramas
 Para ver los ultimos dos log
 * `git log -2` Para ver los dos ultimos commit
 * `git log -3` Para ver los tres ultimos commit
@@ -76,3 +78,8 @@ Este es un comando peligroso
 Cualquier cambio que le hayas hecho a file desaparecerá.
 
 Nunca utilices este comando a menos de que este absolutamente seguro de que ya no quieres los cambios del archivo
+
+# Primer vistazo para lo que es `clonar`
+`git clone https://github.com/escueladigital/ED-GRID.git`: Ahi descarga todo el historial del proyecto ademas de los archivos.
+
+`git clone https://github.com/escueladigital/ED-GRID.git mi-propio-grid` Para que lo creemos en una carpeta mi-propio-grid ;)
