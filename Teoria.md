@@ -83,3 +83,16 @@ Nunca utilices este comando a menos de que este absolutamente seguro de que ya n
 `git clone https://github.com/escueladigital/ED-GRID.git`: Ahi descarga todo el historial del proyecto ademas de los archivos.
 
 `git clone https://github.com/escueladigital/ED-GRID.git mi-propio-grid` Para que lo creemos en una carpeta mi-propio-grid ;)
+
+# Etiquetas en Git
+Poner un marcador a cambios importantes
+
+## `git tag`
+Lista las etiquetas
+
+Este comando lista las etiquetas en orden alfabetico; el orden en el que aparecen no tiene mayor importancia.
+
+## Etiquetas ligeras
+`git tag v1.1-dev`
+
+Una etiqueta ligera no es mas que el checksum(apuntador) un alias de un commit guardado en un archivo, no incluye mas informacion. Para crear una etiqueta ligera, no pasamos las opciones `-a`, `-s` ni `-m`
