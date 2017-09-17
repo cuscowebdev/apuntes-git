@@ -92,7 +92,26 @@ Lista las etiquetas
 
 Este comando lista las etiquetas en orden alfabetico; el orden en el que aparecen no tiene mayor importancia.
 
+Nos lista todas las etiquetas segun orden alfabetico ya sean anotadas o ligeras.
+
 ## Etiquetas ligeras
-`git tag v1.1-dev`
+`git tag nombre-de-la-etiqueta`
 
 Una etiqueta ligera no es mas que el checksum(apuntador) un alias de un commit guardado en un archivo, no incluye mas informacion. Para crear una etiqueta ligera, no pasamos las opciones `-a`, `-s` ni `-m`
+
+Es mas recomendable usar las...
+
+## Etiquetas anotadas
+`git tag -a v1.0.0 -m "my version 1.0.0"`
+
+Se guardan en la base de datos de Git como objetos enteros. Tienen un checksum; contienen nombre del etiquetador, correo electronico y fecha y tienen un mensaje asociado, l
+
+Si no le pasamos el `-m` se nos abrira el editor ya que el mensaje es obligatorio
+
+* ¿Entonces como es que uno se guarda en la base de datos?
+  * `git show nombre-etiqueta`
+
+Para poner una etiqueta en un punto de la historia necesitamos el hash de este ejem `git tag ignorados-iniciales a20cf43`
+
+Tener en cuenta de que es igual
+* `git show a20cf43` y `git show nombre-de-la-etiqueta-en-a20cf43`
