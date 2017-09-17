@@ -123,3 +123,5 @@ Tener en cuenta de que las etiquetas tienen que tener algo en comun en sus nombr
 
 # Ramas
 `git branch nombre-de-la-rama`
+
+Las ramas en git divergen es decir que cuando nosotros hagamos un commit en la rama master este apanzara a la par de la rama `testing`
