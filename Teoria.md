@@ -121,6 +121,9 @@ Tener en cuenta de que las etiquetas tienen que tener algo en comun en sus nombr
 
 * `git tag -l "v0.*"` la opcion -l nos ayuda para poner patrones y asi filtrarlos, esto hace que todas las versiones que epiezan con v0.* y que de ahi le siga lo que sea.
 
+
+> Nota: Para eliminar una etiqueta es `git tag -d nombre_etiqueta`
+
 # Ramas
 `git branch nombre-de-la-rama`
 
@@ -132,7 +135,25 @@ Y otro cambio :)
 
 # Fusiones
 Para fusionar usamos
-# git merge
+## git merge
 `git merge otra_rama`
 
 Incorpora `otra_rama` en la rama actual
+
+## git branch -d
+`git branch -d nombre_rama`
+
+Elimina nombre_rama si ya ha sido fusionada con la rama actual
+
+Solo funciona si ya ha sido fusionada con otra rama, si este no ha sido fusionada no funcionara.
+
+## git branch -D
+`git branch -D nombre_rama`
+
+Elimina nombre_rama este o no fusionada con la rama actual
+
+Se fuerza el borrado, se pierden los cambios
+
+Esta opción es muy peligrosa, tenemos que usarla con mucha precaución
+
+> Nota: Para saber que ramas no estan fusionadas aun podemos usar `git branch --no-merged` y para ver los fusionados podemos usar `git branch --merged`
