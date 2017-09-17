@@ -125,16 +125,24 @@ Tener en cuenta de que las etiquetas tienen que tener algo en comun en sus nombr
 > Nota: Para eliminar una etiqueta es `git tag -d nombre_etiqueta`
 
 # Ramas
-`git branch nombre-de-la-rama`
 
-Las ramas en git divergen es decir que cuando nosotros hagamos un commit en la rama master este apanzara a la par de la rama `testing`
+## `git branch nombre-de-la-rama`
+Para crear una rama
 
-Crearemos un nuevo cambio en la rama de `master`
+## `git checkout nombre-de-la-rama`
+Para movernos de rama en rama
 
-Y otro cambio :)
+* Puedo crear todas las ramas que quiera y/o necesite
+
+* Las ramas nuevas que se crean apuntan al commit en donde este ubicado el `HEAD`.
+
+* Las ramas en git divergen es decir que cuando nosotros hagamos un commit en la rama master este apanzara a la par de la rama `testing`
+
+> `OJO:` Tambien podemos usar git commit -am "message" para poder saltar el area de preparación
 
 # Fusiones
 Para fusionar usamos
+
 ## git merge
 `git merge otra_rama`
 
