@@ -168,3 +168,6 @@ Esta opción es muy peligrosa, tenemos que usarla con mucha precaución
 
 # GitHub
 Para subir nuestros repositorios en  la nube, esto es FREE si trabajomos open source.
+
+## git remote add origin https://github.com/jdpoccorie/apuntes-git.git
+Con este comando vinculamos nuestro repositorio local con un repositorio en la nube
