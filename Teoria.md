@@ -165,3 +165,6 @@ Se fuerza el borrado, se pierden los cambios
 Esta opción es muy peligrosa, tenemos que usarla con mucha precaución
 
 > Nota: Para saber que ramas no estan fusionadas aun podemos usar `git branch --no-merged` y para ver los fusionados podemos usar `git branch --merged`
+
+# GitHub
+Para subir nuestros repositorios en  la nube, esto es FREE si trabajomos open source.
