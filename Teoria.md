@@ -129,3 +129,10 @@ Las ramas en git divergen es decir que cuando nosotros hagamos un commit en la r
 Crearemos un nuevo cambio en la rama de `master`
 
 Y otro cambio :)
+
+# Fusiones
+Para fusionar usamos
+# git merge
+`git merge otra_rama`
+
+Incorpora `otra_rama` en la rama actual
