@@ -115,3 +115,6 @@ Para poner una etiqueta en un punto de la historia necesitamos el hash de este e
 
 Tener en cuenta de que es igual
 * `git show a20cf43` y `git show nombre-de-la-etiqueta-en-a20cf43`
+
+## Filtrado de etiquetas
+Tener en cuenta de que las etiquetas tienen que tener algo en comun en sus nombres como `v1.0.0 v2.0.0 ...`
