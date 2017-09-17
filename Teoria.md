@@ -131,3 +131,5 @@ Para movernos de rama en rama
 Puedo crear todas las ramas que quiera y/o necesite
 
 Las ramas nuevas que se crean apuntan al commit en donde este ubicado el `HEAD`.
+
+>`OJO:` Tambien podemos usar git commit -am "message" para poder saltar el area de preparación 
