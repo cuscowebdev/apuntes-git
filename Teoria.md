@@ -122,4 +122,8 @@ Tener en cuenta de que las etiquetas tienen que tener algo en comun en sus nombr
 * `git tag -l "v0.*"` la opcion -l nos ayuda para poner patrones y asi filtrarlos, esto hace que todas las versiones que epiezan con v0.* y que de ahi le siga lo que sea.
 
 # Ramas
-`git branch nombre-de-la-rama`
+## `git branch nombre-de-la-rama`
+Para crear una rama
+
+## `git checkout nombre-de-la-rama`
+Para movernos de rama en rama
