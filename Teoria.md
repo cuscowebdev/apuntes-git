@@ -117,4 +117,6 @@ Tener en cuenta de que es igual
 * `git show a20cf43` y `git show nombre-de-la-etiqueta-en-a20cf43`
 
 ## Filtrado de etiquetas
-Tener en cuenta de que las etiquetas tienen que tener algo en comun en sus nombres como `v1.0.0 v2.0.0 ...`
+Tener en cuenta de que las etiquetas tienen que tener algo en comun en sus nombres como `v1.0.0 v2.0.0 ...` 
+
+* `git tag -l "v0.*"` la opcion -l nos ayuda para poner patrones y asi filtrarlos, esto hace que todas las versiones que epiezan con v0.* y que de ahi le siga lo que sea.
